@@ -1,4 +1,4 @@
- javascript
+``` javascript
    function getDiagnosis() {
        const symptoms = document.getElementById('symptoms').value.trim().toLowerCase();
        let diagnosis = "Não foi possível identificar os sintomas. Por favor, consulte um médico.";
@@ -28,3 +28,4 @@
        const resultElement = document.getElementById('result');
        resultElement.innerText = diagnosis + additionalAdvice + groupNames;
        resultElement.className = resultClass;
+```
