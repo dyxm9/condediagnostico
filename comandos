@@ -1,4 +1,4 @@
-  sh
+  ´´´sh
      git add index.html styles.css script.js
      git commit -m "Adicionar arquivos iniciais do site"
-     git push origin main
+     git push origin main```
